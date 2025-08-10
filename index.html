@@ -3,9 +3,304 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/feather-icons"></script>
     <title>Document</title>
 </head>
+
 <body>
-    <h1>reponsive design</h1>
+  <section>
+    <header>
+      <nav>
+        <div class="logo">
+            <h1>Freelancer</h1>
+        </div>
+        <ul id="menuList">
+            <li><a href="#">Home</a></li>
+            <li><a href="#" class="font-color">About</a></li>
+            <li><a href="#" class="font-color">Services</a></li>
+            <li><a href="#" class="font-color">Reviews</a></li>
+            <li><a href="#" class="font-color">Article</a></li>
+            <li class="btn"><a href="#">Registration</a></li>
+        </ul>
+        <div class="menu-icon">
+           <i data-feather="menu" onclick="toggleMenu()"></i>
+        </div>
+      </nav>
+    </header>
+  </section>
+
+  <section class="hero">
+    <div class="hero-text">
+        <h1>Hy! I AM<br>Shamima Akhi</h1><br>
+        <p class="font-color">Service line helps to turn your complex multisite, multivendor <br>imaging environment into a uniform and balanced operation.</p><br><br>
+        <button><a href="#">Get Started</a></button>
+    </div>
+    <div>
+        <img src="images/image (2).png" alt="">
+    </div>
+  </section>
+
+    <section class="stats">
+        <div class="stats-div">
+          <div>
+               <h1>258+</h1>
+            <h4>Positive Feedback</h4>
+          </div>
+          <div>
+               <h1>590k</h1>
+            <h4>Project Complete</h4>
+          </div>
+          <div>
+               <h1>28+</h1>
+            <h4>Years of Experience</h4>
+          </div>
+        </div>
+    </section>
+
+    <section class="services">
+       <div class="services-fst-div">
+         <div>
+           <h6>Best Services</h6><br>
+           <h1>Benefits Your Get When<br>Using Our Sercices </h1>
+         </div>
+         <div id="text-height">
+            <p>When we can customize your needs plan to suit your<br>needs, most clients schedule regulat interior services</p>
+         </div>
+      </div>
+      <div class="services-scd-div">
+        <div class="services-inn-div">
+            <img src="images/37.svg" alt="">
+            <div>
+               <h4>Best Quality</h4><br>
+               <p>It starts with our fun and easy<br>projects questionnaire where<br>you'll provide details.</p>
+            </div>
+        </div>
+        <div class="line"></div>
+        <div class="services-inn-div">
+            <img src="images/50 (1).svg" alt="">
+            <div>
+               <h4>Excellent Design</h4><br>
+               <p>After getting matched, your<br>design will messeage with you<br>to collaborate on ideas.</p>
+            </div>
+        </div>
+        <div class="line"></div>
+        <div class="services-inn-div">
+            <img src="images/82.svg" alt="">
+            <div>
+               <h4>Guaranteed Shipping</h4><br>
+               <p>Designer incorporates feedback<br>into the final room design and<br>layout with.</p>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="detail-services">
+      <div class="details-headings">
+         <h1>What we have for you</h1>
+         <p>Some of the services we privide to meet your needs</p>
+      </div><br>
+
+       <div class="details-grid-container">
+      <div class="detail-cards">
+        <div class="rec-boxes">
+          <div class="icon-wrapper"><img src="images/user-interface 1.svg" alt="icon"></div>
+          <div>
+          <h3>Corporate Web Design</h3><br>
+          <p>A marketing tool that is a complete solution <br>for bringing your company within reach of <br>your target market; Wrapped up in great <br>UI/UX design and informative contents <br>about your product and services</p>
+          </div>
+        </div>
+      </div>
+      <div class="detail-cards">
+        <div class="rec-boxes">
+          <div class="icon-wrapper"><img src="images/pen 1.svg" alt="icon"></div>
+          <div>
+          <h3>illustration Design</h3><br>
+          <p>Illustration can be used to give a complete<br>picture of the content of a work. we are <br>ready to help you create good and <br> meaningful illustration for you.</p>
+          </div>
+        </div>
+      </div>
+      <div class="detail-cards">
+        <div class="rec-boxes">
+          <div class="icon-wrapper"><img src="images/Group.svg" alt="icon"></div>
+          <div>
+          <h3>Development System</h3><br>
+          <p>Sell more products using a user-friendly <br>checkout flow and simplify your sales<br>operation with our powerful  CMS, Online <br>payment, membership to invoice, and <br>label printing are ready in the box.</p>
+          </div>
+        </div>
+      </div>
+      <div class="detail-cards">
+        <div class="rec-boxes">
+          <div class="icon-wrapper"><img src="images/maintenance 1.svg" alt="icon"></div>
+          <div>
+          <h3>Web Maintainance Service</h3><br>
+          <p>Our mission is to make your web project last <br>for years. We want you to have peace-of-mind<br>while running your web project knowing <br>that our support is behind it, so you can focus <br>on what you want to do .</p>
+          </div>
+        </div>
+      </div>
+      <div class="detail-cards">
+        <div class="rec-boxes">
+          <div class="icon-wrapper"><img src="images/inspection 1.svg" alt="icon"></div>
+          <div>
+          <h3>SEO Service</h3><br>
+          <p>Make your company's website more <br>competitive on Google's search result by <br>using your best keywords set. We also <br>analyze and audit your current site <br>before optimizing it.</p>
+          </div>
+        </div>
+      </div>
+      <div class="detail-cards">
+        <div class="rec-boxes">
+          <div class="icon-wrapper"><img src="images/smartphone (1) 1.svg" alt="icon"></div>
+          <div>
+          <h3>UI/UX Design</h3><br>
+          <p>UI design on a product aims to beautify the <br>appearance of the product. While the UX <br>design is designed to provide a pleasant <br>experiece when using the product.</p>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <section class="creative-works">
+      <div class="creative-texts">
+        <h1>Some of my Creative works</h1><br>
+        <p id="font-col">An all electric vehicle offering an estimated 20 plus miles of range<br> per charge of an affordable price is how we define but passion<br>  and persistence are the principles used to accomplish it.</p>
+      </div><br><br>
+      <div class="creative-works-grid-container">
+        <div><img src="images/flower1.png" alt=""></div>
+        <div><img src="images/flower2.png" alt=""></div>
+        <div><img src="images/flower4.png" alt=""></div>
+        <div><img src="images/flower3.png" alt=""></div>
+      </div>
+    </section>
+
+    <section class="pricing">
+            <div class="pricing-texts">
+              <h6>Our Pricing</h6><br>
+              <pre><h1>available prices and cheap<br> packages</h1></pre>
+            </div><br><br><br>
+            
+            <div class="pricing-container">
+            <div class="pricing-cards">
+              <div id="align">
+              <h5>Basic</h5><br>
+              <h1>$12<sub><small>/month</small></sub></h1><br>
+              <ul>
+                 <li><small>Got access only 1 day</small></li>
+                 <li><small>Get free drinks and snacks</small></li>
+                 <li><small>Free pricing for 1 month</small></li><br><br><br>
+                <button><a href="#">Get Started</a></button>
+              </ul>
+              </div>
+            </div>
+
+            <div class="pricing-cards">
+              <div id="align">
+              <h5>Basic</h5><br>
+              <h1>$12<sub><small>/month</small></sub></h1><br>
+              <ul>
+                 <li><small>Got access only 1 day</small></li>
+                 <li><small>Get free drinks and snacks</small></li>
+                 <li><small>Free pricing for 1 month</small></li><br><br><br>
+                <button id="pricing-btn"><a href="#">Get Started</a></button>
+              </ul>
+              </div>
+            </div>
+
+            <div class="pricing-cards">
+              <div id="align">
+              <h5>Basic</h5><br>
+              <h1>$12<sub><small>/month</small></sub></h1><br>
+              <ul>
+                 <li><small>Got access only 1 day</small></li>
+                 <li><small>Get free drinks and snacks</small></li>
+                 <li><small>Free pricing for 1 month</small></li><br><br><br>
+                <button><a href="#">Get Started</a></button>
+              </ul>
+              </div>
+            </div>
+            </div>
+    </section>
+
+         <section class="subscribe">
+            <div class="subscribe-div">
+              <p><small>Subscribe Now</small></p>
+              <h1>Subscribe to get update info from us</h1>
+              <button><a href="#">Get Started</a></button>
+            </div>
+         </section>
+
+         <section class="footer">
+          <div class="footer-main">
+             <div class="footer-div-1">
+               <div>
+                <h2>Cartrix</h2><br>
+                <p>An All Design Tool offering an estimated 20 plus <br> Design of range per charge for an affordable price <br> is how we define but passion and consistence</p>
+               </div><br>
+               <div class="footer-images">
+                <div><img src="images/Facebook.svg" alt=""></div>
+                <div><img src="images/Instagram.svg" alt=""></div>
+                <div><img src="images/Twitter.svg" alt=""></div>
+                <div><img src="images/Youtube.svg" alt=""></div>
+               </div>
+              </div>
+                  <div class="footer-list-container">
+                    <div>
+                      <h3>Our Design</h3><br>
+                      <ul>
+                        <li>Adobe illustration</li><br>
+                        <li>Commercial Design</li><br>
+                        <li>Web Development</li>
+                      </ul>
+                    </div>
+                    <div class="mobile-line"></div>
+                    <div>
+                      <h3>Our Design</h3><br>
+                      <ul>
+                        <li>Adobe illustration</li><br>
+                        <li>Commercial Design</li><br>
+                        <li>Web Development</li>
+                      </ul>
+                    </div>
+                    <div class="mobile-line"></div>
+                    <div>
+                      <h3>Our Design</h3><br>
+                      <ul>
+                        <li>Adobe illustration</li><br>
+                        <li>Commercial Design</li><br>
+                        <li>Web Development</li>
+                      </ul>
+                    </div>
+                    <div class="mobile-line"></div>
+                    <div>
+                      <h3>Our Design</h3><br>
+                      <ul>
+                        <li>Adobe illustration</li><br>
+                        <li>Commercial Design</li><br>
+                        <li>Web Development</li>
+                      </ul>
+                    </div>
+                  </div> 
+            </div> 
+            <hr><br>
+            <h6>Copyright Cartrix 2021 All Right Reserved</h6>
+         </section>
+
+     <script>
+        let menuList = document.getElementById("menuList")
+        menuList.style.maxHeight = "0px";
+
+        function toggleMenu(){
+            if(menuList.style.maxHeight == "0px")
+            {
+              menuList.style.maxHeight = "350px";
+            }
+            else{
+                menuList.style.maxHeight = "0px";
+            }
+        }
+
+     </script>
+    <script>
+      feather.replace();
+    </script>
 </body>
 </html>

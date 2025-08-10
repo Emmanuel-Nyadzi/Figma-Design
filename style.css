@@ -1,0 +1,537 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face{
+    src: url(fonts/Ubuntu-Regular.ttf);
+    font-family: Ubuntu-Regular;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: #040F28;
+    font-family: Ubuntu-Regular;
+    font-size: 16px;
+}
+body .font-color{
+    color: #646464;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    padding: 2.325rem;
+}
+.logo{
+    color: white;
+}
+nav ul{
+    display: flex;
+    gap: 30px;
+}
+nav ul .btn a{
+    width: 126px;
+    height: 53px;
+    border: 2px solid;
+    border-color: #C4C4C4;
+    border-radius: 87px;
+    text-align: center;
+    padding: 10px;
+}
+nav ul li{
+    list-style-type: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+.menu-icon{
+    display: none;
+}
+.menu-icon,i{
+    color: white;
+    font-size: 30px;
+}
+.hero-text{
+    color: white;
+}
+.hero img{
+    width: 450px;
+    height: 500px;
+}
+.hero{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    padding-top: 50px;
+}
+.hero button{
+    width: 125px;
+    height: 45px;
+    border: none;
+    background-color: #FC3867;
+    border-radius: 100px;
+}
+.hero button a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+} 
+.stats-div{
+    width: 100%;
+    height: 150px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+    text-align: center;
+}
+.services{
+    padding-top: 100px;
+}
+.services-fst-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 450px;
+    color: white;
+}
+.services-scd-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    padding-top: 50px;
+}
+.services .services-inn-div{
+    display: flex;
+    gap: 10px;
+    color: white;
+}
+.services .line{
+    width: 1px;
+    height: 100px;
+    background-color: white;
+}
+.services-inn-div img{
+   position: relative;
+   bottom: 15px;
+}
+.detail-services{
+    padding-top: 70px;
+    margin-left: 55px;
+}
+.details-headings{
+    text-align: center;
+    color: white;
+    padding-bottom: 25px;
+}
+.rec-boxes{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    color: black;
+}
+.icon-wrapper{
+    background-color: #FC3867;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 35px;
+    bottom: 8px;
+}
+.icon-wrapper img{
+    width: 40px;
+    height: 40px;
+}
+.detail-cards{
+    background-color: white;
+    width: 580px;
+    height: 267px;
+    border-radius: 12px;
+    padding-top: 30px;
+}
+.details-grid-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 0px;
+    row-gap: 50px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.creative-texts{
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+}
+.creative-texts #font-col{
+    color: #999999;
+    font-weight: 400;
+    font-size: 14px;
+}
+.creative-works-grid-container img{
+    width: 588px;
+    height: 320px;
+    border-radius: 12px;
+}
+.creative-works-grid-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 0px;
+    row-gap: 40px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.creative-works{
+    padding-left: 50px;
+}
+.pricing{
+    padding-top: 50px;
+}
+.pricing-texts{
+    text-align: center;
+    color: white;
+}
+.pricing-cards{
+    width: 300px;
+    height: 450px;
+    background-color: white;
+    color: black;
+    border-radius: 12px;
+    text-align: center;
+    justify-content: center;
+}
+.pricing-cards #align{
+    position: relative;
+    top: 110px;
+    left: -20px;
+}
+.pricing-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    padding-bottom: 100px;
+}
+.pricing-container button{
+    width: 125px;
+    height: 45px;
+    border: 1.2px solid;
+    background-color: white;
+    border-radius: 100px;
+}
+.pricing-container button a{
+    text-decoration: none;
+    color: #272727;
+}
+.pricing-container #pricing-btn{
+    width: 125px;
+    height: 45px;
+    border: none;
+    background-color: #FC3867;
+    border-radius: 100px;
+}
+.pricing-container #pricing-btn a{
+    color: #FFFFFF;
+}
+.subscribe-div{
+    background-color: white;
+    width: 100%;
+    height: 150px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.footer{
+    background-color: black;
+    width: 100%;
+    height: 325px;
+}
+.footer-main{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+.footer-images{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.footer-div-1{
+    padding-top: 60px;
+    padding-left: 90px;
+}
+.footer-list-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    padding-left: 80px;
+}
+.footer-list-container ul li{
+    list-style-type: none;
+}
+.footer hr{
+    width: 86%;
+    margin-left: 80px;
+    margin-top: 25px;
+    background-color: #C4C4C480;
+}
+.footer h6{
+    text-align: center;
+    color: #C4C4C480;
+}
+.footer-main .mobile-line{
+    display: none;
+}
+
+
+
+
+
+@media (max-width: 600px) {
+    nav ul{
+        position: absolute;
+        top: 4.563rem;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        text-align: center;
+        background-color: black;
+        gap: 0;
+        overflow: hidden;
+    }
+    body{
+        padding: 1.25rem;
+    }
+    nav ul li{
+        padding: 1.25rem;
+    }
+    .menu-icon{
+        display: block;
+    }
+    #menuList{
+        transition: all 0.20s;
+    }
+    .hero{
+        display: flex;
+        flex-direction: column;
+    }
+    .hero-text{
+        text-align: center;
+        color: white;
+    }
+    .hero img{
+        width: 100%;
+        height: auto;
+    }
+    .stats-div{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3.125rem;
+    }
+    .services{
+    padding-top: 3.125rem;
+
+    }
+    .services-fst-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.875rem;
+    color: white;
+    }
+    .services-fst-div #text-height{
+        text-align: center;
+    }
+    .services-scd-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding-top: 50px;
+    }
+    .services .line{
+    width: 6.25rem;
+    height: 0.063rem;
+    background-color: white;
+    }
+    .details-grid-container{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+    box-sizing: border-box;
+   }
+   .detail-cards{
+    background-color: white;
+    width: 100%;
+    height: 267px;
+    border-radius: 0.313rem;
+    padding-top: 1.875rem;
+  }
+  .detail-services{
+    padding:  1.563rem;
+    margin-left: 0;
+  }
+  .icon-wrapper{
+    background-color: #FC3867;
+    width: 4.375rem;
+    height: 3.125rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 0.625rem;
+    bottom: 2px;
+  }
+.icon-wrapper img{
+    width: 1.875rem;
+    height: 1.875rem;
+  }
+.rec-boxes{
+    display: flex;
+    flex-direction: row;
+    gap: 1.25rem;
+    color: black;
+    overflow: visible;
+  }
+.creative-texts{
+    width: 100%;
+    text-align: center;
+    padding-top: 1.875rem;
+    justify-items: center;
+    justify-content: center;;
+    box-sizing: border-box;
+  }
+.creative-works-grid-container{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+    box-sizing: border-box;
+  }
+.creative-works{
+    padding-left: 0;
+  }
+.creative-works-grid-container img{
+    width: 100%;
+    height: aoto;
+    border-radius: 0.313rem;
+  }
+  .pricing-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px
+  }
+  .pricing-container{
+    padding-bottom: 3.125rem;
+  }
+  .pricing-cards{
+    width: 100%;
+    height: 28.125rem;
+    background-color: white;
+    color: black;
+    border-radius: 0.75rem;
+    text-align: center;
+    justify-content: center;
+  }
+  .subscribe-div{
+    background-color: white;
+    width: 100%;
+    height: 12.5rem;
+    text-align: center;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.625rem;
+  }
+  .footer{
+    background-color: black;
+    width: 100%;
+    height: auto;
+  }
+.footer-main{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 3.125rem;
+  }
+  .footer-div-1{
+    text-align: center;
+    padding-top: 2.188rem;
+    padding-left: 1rem;
+}
+.footer-list-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2.188rem;
+    padding-left: 1.125rem;
+}
+.footer-list-container ul li{
+    list-style-type: none;
+}
+.footer-main .mobile-line{
+    display: block;
+    width: 6.25rem;
+    height: 0.063rem;
+    background-color: white;
+}
+.footer-images{
+    display: flex;
+    flex-direction: row;
+    gap: 1.125rem;
+    padding-left: 3.125rem;
+}
+.footer hr{
+    width: 70%;
+    margin-left: 3.125rem;
+    margin-top: 2rem;
+    background-color: #C4C4C480;
+}
+.footer h6{
+    text-align: center;
+    color: #C4C4C480;
+    position: relative;
+    bottom: 0.715rem;
+}
+}

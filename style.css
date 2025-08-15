@@ -347,8 +347,6 @@ nav ul li a{
 
 
 
-
-
 @media (max-width: 600px) {
     nav ul{
         position: absolute;
@@ -361,6 +359,9 @@ nav ul li a{
         gap: 0;
         overflow: hidden;
     }
+    nav{
+    margin: 15px;
+}
     body{
         padding: 1.25rem;
     }
@@ -381,6 +382,12 @@ nav ul li a{
         text-align: center;
         color: white;
     }
+    .hero-text h1{
+    color: #C4C4C4;
+    font-weight: 300;
+    font-size: 30px;
+    font-style: bold;
+}
     .hero img{
         width: 100%;
         height: auto;

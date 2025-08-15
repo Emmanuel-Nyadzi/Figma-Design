@@ -22,7 +22,8 @@ nav{
     align-items: center;
     justify-content: space-between;
     position: relative;
-    padding: 2.325rem;
+    padding: 20px;
+    margin: 35px;
 }
 .logo{
     color: white;
@@ -54,12 +55,15 @@ nav ul li a{
     color: white;
     font-size: 30px;
 }
-.hero-text{
-    color: white;
+.hero-text h1{
+    color: #C4C4C4;
+    font-weight: 700;
+    font-size: 50px;
+    font-style: bold;
 }
 .hero img{
     width: 450px;
-    height: 500px;
+    height: auto;
 }
 .hero{
     display: flex;
@@ -84,14 +88,28 @@ nav ul li a{
 } 
 .stats-div{
     width: 100%;
-    height: 150px;
+    height: 250px;
     background-color: white;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 200px;
+    gap: 120px;
     text-align: center;
+}
+.stats-div p{
+    color: #C4C4C4;
+    font-weight: 400;
+}
+.stats-div h1{
+    font-weight: 700;
+    font-size: 45px;
+}
+.stats-div .stats-div-line{
+    color: #D8D8D8;
+    border: 1px solid;
+    height: 110px;
+    width: 0px;
 }
 .services{
     padding-top: 100px;
@@ -159,8 +177,8 @@ nav ul li a{
 }
 .detail-cards{
     background-color: white;
-    width: 580px;
-    height: 267px;
+    width: 500px;
+    height: 230px;
     border-radius: 12px;
     padding-top: 30px;
 }
@@ -173,6 +191,9 @@ nav ul li a{
     padding: 0;
     box-sizing: border-box;
 }
+.details-grid-container .adjust{
+    margin-left: 80px;
+}
 .creative-texts{
     text-align: center;
     color: white;
@@ -184,9 +205,12 @@ nav ul li a{
     font-size: 14px;
 }
 .creative-works-grid-container img{
-    width: 588px;
-    height: 320px;
+    width: 500px;
+    height: 230px;
     border-radius: 12px;
+}
+.creative-works .adjust{
+    margin-left: 85px;
 }
 .creative-works-grid-container{
     display: grid;
@@ -210,7 +234,7 @@ nav ul li a{
 .pricing-cards{
     width: 300px;
     height: 450px;
-    background-color: white;
+    background-color: #FFFFFF;
     color: black;
     border-radius: 12px;
     text-align: center;
@@ -252,7 +276,7 @@ nav ul li a{
 .subscribe-div{
     background-color: white;
     width: 100%;
-    height: 150px;
+    height: 250px;
     color: black;
     display: flex;
     flex-direction: column;
@@ -269,6 +293,7 @@ nav ul li a{
     border: none;
     background-color: #FC3867;
     border-radius: 100px;
+    margin-top: 15px;
 }
 .subscribe .subscribe-btn a{
     text-decoration: none;
@@ -370,9 +395,11 @@ nav ul li a{
     justify-content: center;
     gap: 3.125rem;
     }
+    .stats-div .stats-div-line{
+    display: none;
+   }
     .services{
     padding-top: 3.125rem;
-
     }
     .services-fst-div{
     display: flex;
@@ -406,6 +433,9 @@ nav ul li a{
     grid-template-columns: 1fr;
     gap: 1.25rem;
     box-sizing: border-box;
+   }
+   .details-grid-container .adjust{
+    margin-left: 0px;
    }
    .detail-cards{
     background-color: white;
@@ -457,6 +487,9 @@ nav ul li a{
     grid-template-columns: 1fr;
     gap: 1.25rem;
     box-sizing: border-box;
+  }
+  .creative-works .adjust{
+    margin-left: 0px;
   }
 .creative-works{
     padding-left: 0;
